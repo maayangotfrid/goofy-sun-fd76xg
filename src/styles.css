@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+body > section > div {
+  width: 300px;
+  position: relative;
+  left: 154px;
+}
+
+section {
+  width: 487px;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.scratch-off-gallery {
+  clear: both;
+  display: block;
+}
+
+#js-canvas-1 > img {
+  width: 300px;
+  height: 276px;
+}
+
+.BGimg {
+  background-image: url("https://media.istockphoto.com/vectors/scratch-card-vector-id994748032?k=20&m=994748032&s=612x612&w=0&h=HPdha_HKq_odWdAjUbfIr40gWawwKaj1nYrkUXSv06c=");
+  z-index: 1000;
+  background-repeat: no-repeat;
+  background-position: -42px -93px;
+}
+
+.sc__canvas {
+  width: 300px;
+  height: auto;
+  min-height: 276px;
+}
+
+.scratch-off-gallery__item {
+  overflow: hidden;
+  min-height: 276px;
+  margin: 0 auto;
+}
+
+.scratch-off-gallery__item > div {
+  position: relative;
+}
+
+.scratch-off-gallery__item > div img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+body > section > div {
+  width: 300px;
+}
+
+.scratch-off-gallery__item > div canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
